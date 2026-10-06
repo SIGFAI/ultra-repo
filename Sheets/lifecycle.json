@@ -1,0 +1,28 @@
+{
+  "sheet": "lifecycle",
+  "columns": {
+    "id": "string",
+    "hideManager": "bool",
+    "gameplayScenes": "string",
+    "resetPolicy": "string",
+    "mixedLobbyPolicy": "string",
+    "readyGate": "string",
+    "assetEnv": "string",
+    "networkStart": "string",
+    "restoreMovement": "string"
+  },
+  "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection.",
+  "rows": [
+    {
+      "id": "bootstrap",
+      "hideManager": true,
+      "gameplayScenes": "level,tutorial,lobby",
+      "resetPolicy": "death and controller replacement",
+      "mixedLobbyPolicy": "disable mod gameplay and restore native movement/body until all peers have matching ready assets",
+      "readyGate": "controller native LateStart has populated original movement values; required local meshes, rigs, idle/fire/run clips, weapon textures and three sounds are ready on every matching peer",
+      "assetEnv": "ULTRAHAUL_ULTRAKILL",
+      "networkStart": "Wait for native multiplayer state before reading Photon or attaching its event listener; native region lookup initializes it first.",
+      "restoreMovement": "Restore native walk, sprint, crouch, jump, gravity, slide duration and slide decay when mod gameplay is disabled."
+    }
+  ]
+}

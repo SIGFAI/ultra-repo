@@ -1,0 +1,54 @@
+{
+  "sheet": "controls",
+  "columns": {
+    "id": "string",
+    "mode": "string",
+    "path": "string",
+    "action": "string"
+  },
+  "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately.",
+  "rows": [
+    {
+      "id": "dash",
+      "mode": "game",
+      "path": "Sprint",
+      "action": "dash"
+    },
+    {
+      "id": "slide",
+      "mode": "game",
+      "path": "Crouch",
+      "action": "slide"
+    },
+    {
+      "id": "fire",
+      "mode": "custom",
+      "path": "<Mouse>/leftButton",
+      "action": "fire"
+    },
+    {
+      "id": "coin",
+      "mode": "custom",
+      "path": "<Mouse>/rightButton",
+      "action": "coin"
+    },
+    {
+      "id": "parry",
+      "mode": "custom",
+      "path": "<Keyboard>/f",
+      "action": "parry"
+    },
+    {
+      "id": "equip",
+      "mode": "custom",
+      "path": "<Keyboard>/g",
+      "action": "equip"
+    },
+    {
+      "id": "switch",
+      "mode": "custom",
+      "path": "<Keyboard>/r",
+      "action": "switch"
+    }
+  ]
+}

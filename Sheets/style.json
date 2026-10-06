@@ -1,0 +1,40 @@
+{
+  "sheet": "style",
+  "columns": {
+    "id": "string",
+    "maxScore": "float",
+    "decay": "float",
+    "grace": "float",
+    "hit": "float",
+    "kill": "float",
+    "coin": "float",
+    "parry": "float",
+    "boost": "float",
+    "varietyMultiplier": "float",
+    "staleMultiplier": "float",
+    "energyPerPoint": "float",
+    "boostThreshold": "float",
+    "boostSeconds": "float",
+    "combatMultiplier": "float"
+  },
+  "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action.",
+  "rows": [
+    {
+      "id": "momentum",
+      "maxScore": 600.0,
+      "decay": 40.0,
+      "grace": 3.0,
+      "hit": 12.0,
+      "kill": 85.0,
+      "coin": 55.0,
+      "parry": 100.0,
+      "boost": 75.0,
+      "varietyMultiplier": 1.25,
+      "staleMultiplier": 0.35,
+      "energyPerPoint": 0.007,
+      "boostThreshold": 160.0,
+      "boostSeconds": 3.0,
+      "combatMultiplier": 1.2
+    }
+  ]
+}

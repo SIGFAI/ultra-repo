@@ -1,0 +1,110 @@
+{
+  "sheet": "hooks",
+  "columns": {
+    "id": "string",
+    "type": "string",
+    "member": "string",
+    "phase": "string",
+    "system": "string",
+    "source": "string"
+  },
+  "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight.",
+  "rows": [
+    {
+      "id": "movement",
+      "type": "PlayerController",
+      "member": "FixedUpdate",
+      "phase": "postfix: native slide velocity",
+      "system": "movement",
+      "source": "PlayerController.cs"
+    },
+    {
+      "id": "parry",
+      "type": "PlayerHealth",
+      "member": "Hurt",
+      "phase": "prefix",
+      "system": "parry",
+      "source": "PlayerHealth.cs"
+    },
+    {
+      "id": "damage",
+      "type": "EnemyHealth",
+      "member": "Hurt",
+      "phase": "host call",
+      "system": "weapons",
+      "source": "EnemyHealth.cs"
+    },
+    {
+      "id": "input",
+      "type": "InputManager",
+      "member": "GetAction",
+      "phase": "read saved bindings",
+      "system": "controls",
+      "source": "InputManager.cs"
+    },
+    {
+      "id": "avatars",
+      "type": "SemiFunc",
+      "member": "PlayerGetList",
+      "phase": "read on main thread",
+      "system": "assets",
+      "source": "SemiFunc.cs"
+    },
+    {
+      "id": "session",
+      "type": "SteamManager",
+      "member": "Start",
+      "phase": "native join arg",
+      "system": "network",
+      "source": "SteamManager.cs"
+    },
+    {
+      "id": "grab-hold",
+      "type": "InputManager",
+      "member": "KeyHold",
+      "phase": "prefix while gun drawn",
+      "system": "controls",
+      "source": "InputManager.cs"
+    },
+    {
+      "id": "grab-down",
+      "type": "InputManager",
+      "member": "KeyDown",
+      "phase": "prefix while gun drawn",
+      "system": "controls",
+      "source": "InputManager.cs"
+    },
+    {
+      "id": "enemy-collider",
+      "type": "EnemyParent",
+      "member": "Awake",
+      "phase": "resolve physics collider to child EnemyHealth",
+      "system": "weapons",
+      "source": "EnemyParent.cs"
+    },
+    {
+      "id": "slam-fall",
+      "type": "PlayerCollisionController",
+      "member": "ResetFalling",
+      "phase": "call during intentional slam",
+      "system": "movement",
+      "source": "PlayerCollisionController.cs"
+    },
+    {
+      "id": "test-tumble",
+      "type": "PlayerTumble",
+      "member": "TumbleSet",
+      "phase": "development-only positioning",
+      "system": "presentation",
+      "source": "PlayerTumble.cs"
+    },
+    {
+      "id": "enemy-index",
+      "type": "SemiFunc",
+      "member": "EnemyGetFromIndex",
+      "phase": "native attacker index for parry",
+      "system": "parry",
+      "source": "SemiFunc.cs"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "sheet": "presentation",
+  "columns": {
+    "id": "string",
+    "title": "string",
+    "hudWidth": "int",
+    "hudHeight": "int",
+    "scanSeconds": "float",
+    "tracerSeconds": "float",
+    "viewX": "float",
+    "viewY": "float",
+    "viewZ": "float",
+    "recoil": "float",
+    "testBridge": "string",
+    "hudX": "float",
+    "hudY": "float",
+    "fontSize": "int",
+    "referenceHeight": "float",
+    "testSlotEnv": "string",
+    "testHeadroom": "float",
+    "testDropHeight": "float",
+    "testEnemy": "string",
+    "shotTrace": "string",
+    "testPosition": "string"
+  },
+  "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies.",
+  "rows": [
+    {
+      "id": "hud",
+      "title": "ULTRA R.E.P.O.",
+      "hudWidth": 420,
+      "hudHeight": 190,
+      "scanSeconds": 2.0,
+      "tracerSeconds": 0.12,
+      "viewX": 0.22,
+      "viewY": -0.24,
+      "viewZ": 0.55,
+      "recoil": 0.08,
+      "testBridge": "{localappdata}/UltraHaul/dev",
+      "hudX": 24.0,
+      "hudY": 220.0,
+      "fontSize": 26,
+      "referenceHeight": 1080.0,
+      "testSlotEnv": "ULTRAHAUL_DEV_SLOT",
+      "testHeadroom": 3.0,
+      "testDropHeight": 2.0,
+      "testEnemy": "Huntsman",
+      "shotTrace": "Development-only ray command logs actual camera aim, native target and every ray collider; never active in normal play.",
+      "testPosition": "Native TumbleSet ends test ragdoll before teleport; synchronize controller transform/rigidbody and reset native fall accumulator and prior height. Isolated combat uses the native Huntsman at close range. Boost check fires and parries in the same frame before this close target intercepts the shell."
+    }
+  ]
+}

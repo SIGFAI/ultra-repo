@@ -1,0 +1,44 @@
+{
+  "sheet": "movement",
+  "columns": {
+    "id": "string",
+    "walk": "float",
+    "sprint": "float",
+    "crouch": "float",
+    "jump": "float",
+    "gravity": "float",
+    "dashSpeed": "float",
+    "dashSeconds": "float",
+    "dashCapacity": "float",
+    "dashRecharge": "float",
+    "slideSpeed": "float",
+    "slideDecay": "float",
+    "slamSpeed": "float",
+    "carryMultiplier": "float",
+    "slideSeconds": "float",
+    "slideEntry": "string",
+    "slamFallPolicy": "string"
+  },
+  "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so.",
+  "rows": [
+    {
+      "id": "v1",
+      "walk": 7.0,
+      "sprint": 10.0,
+      "crouch": 3.0,
+      "jump": 10.0,
+      "gravity": 20.0,
+      "dashSpeed": 23.0,
+      "dashSeconds": 0.16,
+      "dashCapacity": 3.0,
+      "dashRecharge": 0.65,
+      "slideSpeed": 16.0,
+      "slideDecay": 0.5,
+      "slamSpeed": 27.0,
+      "carryMultiplier": 0.75,
+      "slideSeconds": 2.0,
+      "slideEntry": "press native crouch while moving on ground; sprint-to-slide also works",
+      "slamFallPolicy": "Reset native fall distance during intentional slam descent and landing; retain native damage on ordinary falls and loot."
+    }
+  ]
+}

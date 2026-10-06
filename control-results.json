@@ -1,0 +1,12 @@
+{
+  "draw": true,
+  "switch": 1,
+  "parryInput": true,
+  "fireInput": true,
+  "holster": true,
+  "note": "Actual G draw/holster, R swap, F parry and LMB fire, god mode disabled. RMB input sent; coin interaction is verified separately by the combat check. Natural AI attack timing is unverified.",
+  "passed": true,
+  "pluginSha256": "96894ce639e4969a0e1215e6ea8bc7ab65779f0a1443ddcc0094a9e4d0864b50",
+  "cooperativeJoin": "pending two authenticated clients",
+  "log": "[Info   : UltraHaul] Native weapon rig + idle/fire animations loaded.\n[Info   : UltraHaul] Native weapon rig + idle/fire animations loaded.\n[Info   : UltraHaul] ACTION parry armed\n[Info   : UltraHaul] Native weapon rig + idle/fire animations loaded.\n[Info   : UltraHaul] HOST fire revolver"
+}

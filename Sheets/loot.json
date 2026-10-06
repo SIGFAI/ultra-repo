@@ -1,0 +1,22 @@
+{
+  "sheet": "loot",
+  "columns": {
+    "id": "string",
+    "damagePolicy": "string",
+    "valuePolicy": "string",
+    "grabPolicy": "string",
+    "bulletImpulse": "float",
+    "blastImpulse": "float"
+  },
+  "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative.",
+  "rows": [
+    {
+      "id": "fragile",
+      "damagePolicy": "native",
+      "valuePolicy": "native",
+      "grabPolicy": "native when holstered",
+      "bulletImpulse": 1.5,
+      "blastImpulse": 2.0
+    }
+  ]
+}

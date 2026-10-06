@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
+    {
+      "slug": "repo",
+      "role": "primary"
+    },
+    {
+      "slug": "ultrakill",
+      "role": "secondary"
+    }
+  ],
+  "components": [
+    {
+      "id": "main",
+      "fileName": "ULTRA-REPO-0.1.0-dev.zip",
+      "label": "Main files",
+      "kind": "main",
+      "required": true
+    }
+  ],
+  "requirements": [
+    {
+      "kind": "loader",
+      "id": "bepinex-5"
+    }
+  ],
+  "mappings": [
+    {
+      "component": "main",
+      "from": "plugins/UltraHaul/",
+      "to": "{game}/BepInEx/plugins/UltraHaul"
+    },
+    {
+      "component": "main",
+      "from": "docs/",
+      "to": "{game}/BepInEx/plugins/UltraHaul/docs"
+    }
+  ],
+  "launch": {
+    "kind": "exe",
+    "path": "{game}/REPO.exe",
+    "cwd": "{game}",
+    "env": {
+      "ULTRAHAUL_ULTRAKILL": "{game:ultrakill}"
+    }
+  },
+  "multiplayer": {
+    "maxPlayers": 6
+  },
+  "notes": {
+    "firstLaunch": "Choose Singleplayer or Private Game in R.E.P.O. Multiplayer has not been tested with two players; every co-op player needs both games and this same version. Join through the native private lobby/invite menu; automatic joining is not enabled."
+  }
+}

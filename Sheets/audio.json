@@ -1,0 +1,30 @@
+{
+  "sheet": "audio",
+  "columns": {
+    "id": "string",
+    "key": "string",
+    "name": "string",
+    "volume": "float"
+  },
+  "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed.",
+  "rows": [
+    {
+      "id": "revolver",
+      "key": "631df62232be137469c054e1d18be525",
+      "name": "AltRevolverShoot1",
+      "volume": 0.45
+    },
+    {
+      "id": "shotgun",
+      "key": "f23557a9aad66fe49a1a5fe56d222698",
+      "name": "Steampunk Weapons - Shotgun 2 - Shot - 01",
+      "volume": 0.6
+    },
+    {
+      "id": "coin",
+      "key": "ce77e27cc9789704dbeb0a0525e4d23b",
+      "name": "coinflip",
+      "volume": 0.3
+    }
+  ]
+}

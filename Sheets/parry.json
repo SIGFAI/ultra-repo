@@ -1,0 +1,36 @@
+{
+  "sheet": "parry",
+  "columns": {
+    "id": "string",
+    "window": "float",
+    "cooldown": "float",
+    "range": "float",
+    "damage": "int",
+    "stunSeconds": "float",
+    "coinCapacity": "int",
+    "coinRecharge": "float",
+    "coinLife": "float",
+    "coinUp": "float",
+    "coinForward": "float",
+    "coinMultiplier": "float",
+    "coinHitRadius": "float"
+  },
+  "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72.",
+  "rows": [
+    {
+      "id": "feedback",
+      "window": 0.22,
+      "cooldown": 0.55,
+      "range": 3.0,
+      "damage": 35,
+      "stunSeconds": 0.6,
+      "coinCapacity": 4,
+      "coinRecharge": 3.0,
+      "coinLife": 2.0,
+      "coinUp": 6.0,
+      "coinForward": 3.0,
+      "coinMultiplier": 2.0,
+      "coinHitRadius": 0.22
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "sheet": "network",
+  "columns": {
+    "id": "string",
+    "eventCode": "int",
+    "maxPlayers": "int",
+    "protocol": "string",
+    "transport": "string",
+    "handshakeKey": "string",
+    "shotTolerance": "float",
+    "rateLimit": "float",
+    "joinArg": "string",
+    "endEvents": "string",
+    "parryTarget": "string"
+  },
+  "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification.",
+  "rows": [
+    {
+      "id": "coop",
+      "eventCode": 181,
+      "maxPlayers": 6,
+      "protocol": "UH-1",
+      "transport": "native Steam + Photon PUN relay",
+      "handshakeKey": "UltraHaulProtocol",
+      "shotTolerance": 6.0,
+      "rateLimit": 0.1,
+      "joinArg": "+connect_lobby",
+      "endEvents": "host broadcasts consumed coins and shell impacts to all peers",
+      "parryTarget": "native EnemyDirector index, identical to incoming PlayerHealth.Hurt attacker index"
+    }
+  ]
+}

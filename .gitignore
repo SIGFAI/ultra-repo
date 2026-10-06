@@ -1,0 +1,7 @@
+bin/
+obj/
+generated-assets/
+cache/
+*.user
+*.log
+.env

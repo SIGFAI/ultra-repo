@@ -1,0 +1,81 @@
+{
+  "sheet": "assets",
+  "columns": {
+    "id": "string",
+    "bundle": "string",
+    "key": "string",
+    "meshName": "string",
+    "textureKey": "string",
+    "height": "float",
+    "rotateX": "float",
+    "rotateY": "float",
+    "rotateZ": "float",
+    "idleClip": "string",
+    "fireClip": "string",
+    "walkClip": "string",
+    "armColor": "string"
+  },
+  "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure.",
+  "rows": [
+    {
+      "id": "v1",
+      "bundle": "models",
+      "key": "438442920efb1e24fa03e81636cfc9d4",
+      "meshName": "v1_mdl",
+      "textureKey": "none",
+      "height": 1.8,
+      "rotateX": -90.0,
+      "rotateY": 180.0,
+      "rotateZ": 0.0,
+      "idleClip": "Idle",
+      "fireClip": "none",
+      "walkClip": "Running",
+      "armColor": "0.02,0.06,0.18"
+    },
+    {
+      "id": "revolver",
+      "bundle": "models",
+      "key": "0dbb5142230adc84292865064219a5d3",
+      "meshName": "Revolver_Body",
+      "textureKey": "647dea7a4421fff41bbcd2f00080eb39",
+      "height": 0.7,
+      "rotateX": 0.0,
+      "rotateY": 0.0,
+      "rotateZ": 0.0,
+      "idleClip": "Idle",
+      "fireClip": "Shoot",
+      "walkClip": "none",
+      "armColor": "0.02,0.06,0.18"
+    },
+    {
+      "id": "shotgun",
+      "bundle": "models",
+      "key": "e1e497dbbcf47df49a1b3d23fd1b4994",
+      "meshName": "Shotgun_New",
+      "textureKey": "20c9f6d019cb72f49b178539f13f5377",
+      "height": 0.75,
+      "rotateX": 90.0,
+      "rotateY": 0.0,
+      "rotateZ": 0.0,
+      "idleClip": "Idle",
+      "fireClip": "FireNoReload",
+      "walkClip": "none",
+      "armColor": "0.02,0.06,0.18"
+    },
+    {
+      "id": "coin",
+      "bundle": "models",
+      "key": "fb46724754ff9044b80f6df9d583440d",
+      "meshName": "Cylinder",
+      "textureKey": "none",
+      "height": 0.12,
+      "rotateX": 0.0,
+      "rotateY": 0.0,
+      "rotateZ": 0.0,
+      "idleClip": "none",
+      "fireClip": "none",
+      "walkClip": "none",
+      "armColor": "none"
+    }
+  ]
+}

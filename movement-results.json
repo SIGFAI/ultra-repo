@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "pluginSha256": "96894ce639e4969a0e1215e6ea8bc7ab65779f0a1443ddcc0094a9e4d0864b50",
+  "dash": {
+    "assets": true,
+    "playing": true,
+    "equipped": false,
+    "sessionReady": true,
+    "sprintHeld": false,
+    "sprintAllowed": false,
+    "grounded": true,
+    "sliding": false,
+    "tumbling": false,
+    "boosted": false,
+    "godMode": false,
+    "status": "V1 + revolver + shotgun loaded from your ULTRAKILL copy.",
+    "scene": "Main",
+    "weapon": 0,
+    "players": 1,
+    "health": 100,
+    "dash": 2.2341625690460205,
+    "style": 0.0,
+    "peakSpeed": 22.46044921875,
+    "minVertical": -0.9810017347335815,
+    "velocity": {
+      "x": -1.5754758608821362e-13,
+      "y": -0.004522204399108887,
+      "z": -6.897607818245888e-09
+    },
+    "position": {
+      "x": -6.636016769334674e-05,
+      "y": 0.7009813785552979,
+      "z": -14.469574928283691
+    },
+    "cameraForward": {
+      "x": 0.0003020440926775336,
+      "y": -0.0014183638850226998,
+      "z": 0.999998927116394
+    }
+  },
+  "slide": "native slide input logged",
+  "jumpRise": 0.6123053431510925,
+  "slam": {
+    "assets": true,
+    "playing": true,
+    "equipped": false,
+    "sessionReady": true,
+    "sprintHeld": false,
+    "sprintAllowed": false,
+    "grounded": true,
+    "sliding": false,
+    "tumbling": false,
+    "boosted": false,
+    "godMode": false,
+    "status": "V1 + revolver + shotgun loaded from your ULTRAKILL copy.",
+    "scene": "Main",
+    "weapon": 0,
+    "players": 1,
+    "health": 100,
+    "dash": 3.0,
+    "style": 0.0,
+    "peakSpeed": 8.630398750305176,
+    "minVertical": -27.39620018005371,
+    "velocity": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": -2.648094898814908e-35
+    },
+    "position": {
+      "x": 0.0061724684201180935,
+      "y": 0.0,
+      "z": -1.237457513809204
+    },
+    "cameraForward": {
+      "x": 0.013564922846853733,
+      "y": -0.00014022494724486023,
+      "z": -0.9999085664749146
+    }
+  },
+  "nativeKnockdownAfterSlam": false,
+  "note": "Native C dash, W+Crouch slide and Space jump. Slam uses a real airborne controller drop with crouch input. No god mode. Native knockdowns remain; landing immunity is not claimed."
+}

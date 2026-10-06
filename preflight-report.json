@@ -1,0 +1,1417 @@
+{
+  "definitionChecks": 282,
+  "errors": [],
+  "cells": [
+    {
+      "cell": "assets/v1/id",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/bundle",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/key",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/meshName",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/textureKey",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/height",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/rotateX",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/rotateY",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/rotateZ",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/idleClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/fireClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/walkClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/v1/armColor",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/id",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/bundle",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/key",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/meshName",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/textureKey",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/height",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/rotateX",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/rotateY",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/rotateZ",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/idleClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/fireClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/walkClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/revolver/armColor",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/id",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/bundle",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/key",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/meshName",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/textureKey",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/height",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/rotateX",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/rotateY",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/rotateZ",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/idleClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/fireClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/walkClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/shotgun/armColor",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/id",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/bundle",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/key",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/meshName",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/textureKey",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/height",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/rotateX",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/rotateY",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/rotateZ",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/idleClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/fireClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/walkClip",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "assets/coin/armColor",
+      "definitionVerified": true,
+      "evidence": "Verified by UnityPy against installed ULTRAKILL asset bundle containers/mesh names. Assets are loaded at runtime from local game; no extracted assets shipped. V1 uses native vertex colors with blue material. Native FBX GameObjects and animation subassets verified: V1 Idle/Running, revolver Shoot/Idle, shotgun FireNoReload/Idle. Animation sampling must preserve imported transform scale and normalized model root offset; live telemetry found scales otherwise reset from 100 to 1. Normalize with native renderer world bounds; applying baked skin mesh scale twice produced invisible models. Native coin FBX key verified via UnityPy container GameObject name; native coin geometry replaces provisional sphere. Coin FBX subasset is Mesh Cylinder (GameObject coin); verified complete container subasset list after runtime mapping failure."
+    },
+    {
+      "cell": "audio/revolver/id",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/revolver/key",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/revolver/name",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/revolver/volume",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/shotgun/id",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/shotgun/key",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/shotgun/name",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/shotgun/volume",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/coin/id",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/coin/key",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/coin/name",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "audio/coin/volume",
+      "definitionVerified": true,
+      "evidence": "UnityPy verified AudioClip names and container keys in local ULTRAKILL sounds.bundle. Read on player machine; no audio is redistributed."
+    },
+    {
+      "cell": "controls/dash/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/dash/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/dash/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/dash/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/slide/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/slide/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/slide/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/slide/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/fire/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/fire/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/fire/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/fire/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/coin/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/coin/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/coin/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/coin/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/parry/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/parry/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/parry/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/parry/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/equip/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/equip/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/equip/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/equip/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/switch/id",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/switch/mode",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/switch/path",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "controls/switch/action",
+      "definitionVerified": true,
+      "evidence": "Game keys use InputManager saved remaps (Sprint/Crouch); custom InputActions are configurable BepInEx entries. G toggles guns/grabber to preserve R.E.P.O. original mouse grabbing/rotation and inventory keys. All input disabled in menus/death/chat. G avoids native Q tumble; custom binding names displayed from saved InputAction effective paths. Native G draw/holster, R switch, F arm and LMB fire input passed with god mode off on the current build; saved C/LeftShift/Space movement also passed. RMB was sent but its InputAction result was not independently observed; the shared coin combat route was verified separately."
+    },
+    {
+      "cell": "hooks/movement/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/movement/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/movement/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/movement/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/movement/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/movement/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/parry/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/damage/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/input/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/avatars/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/session/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-hold/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/grab-down/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-collider/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/slam-fall/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/test-tumble/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/id",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/type",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/member",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/phase",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/system",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "hooks/enemy-index/source",
+      "definitionVerified": true,
+      "evidence": "Every named hook inspected in installed game using ILSpy 9.1; no game source is shipped. Runtime verification is recorded separately in test-results.json and never inferred from this preflight."
+    },
+    {
+      "cell": "lifecycle/bootstrap/id",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/hideManager",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/gameplayScenes",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/resetPolicy",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/mixedLobbyPolicy",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/readyGate",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/assetEnv",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/networkStart",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "lifecycle/bootstrap/restoreMovement",
+      "definitionVerified": true,
+      "evidence": "BepInEx Chainloader inspected: HideManagerGameObject sets Unity hideFlags=61. Live test with true restores coroutine/update/HUD. Use the same supported manager flag from plugin Awake to avoid overwriting global config. Native SemiFunc exposes level/tutorial/lobby detection."
+    },
+    {
+      "cell": "loot/fragile/id",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "loot/fragile/damagePolicy",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "loot/fragile/valuePolicy",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "loot/fragile/grabPolicy",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "loot/fragile/bulletImpulse",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "loot/fragile/blastImpulse",
+      "definitionVerified": true,
+      "evidence": "Design: preserve fragile cargo. Never patch valuable durability, price or extraction. Bullet/blast impacts add bounded native rigidbody impulses; original impact damage remains authoritative."
+    },
+    {
+      "cell": "movement/v1/id",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/walk",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/sprint",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/crouch",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/jump",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/gravity",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/dashSpeed",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/dashSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/dashCapacity",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/dashRecharge",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slideSpeed",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slideDecay",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slamSpeed",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/carryMultiplier",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slideSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slideEntry",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "movement/v1/slamFallPolicy",
+      "definitionVerified": true,
+      "evidence": "Design: approved dash/slide/slam; hooks verified in PlayerController.Start, FixedUpdate, MoveForce, CrouchOverride and CollisionController.Grounded. Tunable values are initial design choices, not runtime test results. Native slide vectors use slideSpeed minus crouch contribution, set once when native Sliding starts. Current titled build, god mode off: native C dash peak 22.46045 m/s, W+Crouch slide logged, Space jump rose 0.6123 m, real airborne Crouch slam reached -27.3962 m/s. This run did not knock the player down; native hard impacts can still do so."
+    },
+    {
+      "cell": "network/coop/id",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/eventCode",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/maxPlayers",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/protocol",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/transport",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/handshakeKey",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/shotTolerance",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/rateLimit",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/joinArg",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/endEvents",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "network/coop/parryTarget",
+      "definitionVerified": true,
+      "evidence": "Verified: installed game ships Photon PUN2; EnemyHealth is host-authoritative, SteamManager.Start reads +connect_lobby, native game supports 6. Require all room players to advertise protocol before gameplay activates. Join integration stays unpublished until two-client verification."
+    },
+    {
+      "cell": "parry/feedback/id",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/window",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/cooldown",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/range",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/damage",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/stunSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinCapacity",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinRecharge",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinLife",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinUp",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinForward",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinMultiplier",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "parry/feedback/coinHitRadius",
+      "definitionVerified": true,
+      "evidence": "Design: timed incoming enemy parries and projectile boosts. Hooks verified: PlayerHealth.Hurt enemyIndex, SemiFunc.EnemyGetFromIndex, EnemyHealth.Hurt, EnemyStateStunned.Set. No fall-damage immunity or generic invincibility. Live native Hurt test: 100 to 100 inside window with attacker counter damaged/killed; 100 to 95 after 0.35 seconds; dash replenished 1.72."
+    },
+    {
+      "cell": "presentation/hud/id",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/title",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/hudWidth",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/hudHeight",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/scanSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/tracerSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/viewX",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/viewY",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/viewZ",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/recoil",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testBridge",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/hudX",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/hudY",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/fontSize",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/referenceHeight",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testSlotEnv",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testHeadroom",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testDropHeight",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testEnemy",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/shotTrace",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "presentation/hud/testPosition",
+      "definitionVerified": true,
+      "evidence": "Design: game-only HUD showing weapon, dash charges, style rank, controls and handshake state. Camera sourced from PlayerController.cameraGameObjectLocal, not a separate gameplay scene. Optional local file bridge only with ULTRAHAUL_DEV=1; excluded from release activation. HUD placed below native health/stamina and scales with display height. Runtime checks select only active, living native enemies; disabled/despawned enemies are excluded. Development menu transitions only end a tutorial when the native current run is a tutorial. Enemy test placement and aim retain the same living target to avoid accidentally aiming at another enemy. Slam isolation uses a real airborne controller drop with native crouch input, in a point with clear vertical headroom; this tests the slam separately from jump setup. Controlled combat checks spawn the native Hunter setup and select its Huntsman enemy, separately from other procedural enemies."
+    },
+    {
+      "cell": "style/momentum/id",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/maxScore",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/decay",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/grace",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/hit",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/kill",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/coin",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/parry",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/boost",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/varietyMultiplier",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/staleMultiplier",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/energyPerPoint",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/boostThreshold",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/boostSeconds",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "style/momentum/combatMultiplier",
+      "definitionVerified": true,
+      "evidence": "Design: user chose combat momentum, not money or cargo shields. Host acknowledges successful hits before style is rewarded; style is local per player and resets on death/scene change. A successful attack grants its hit plus skill bonus as one award, so the first coin/boost is not incorrectly treated as an immediately repeated action."
+    },
+    {
+      "cell": "weapons/revolver/id",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/asset",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/damage",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/pellets",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/cooldown",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/range",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/spread",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/speed",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/lifetime",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/boostWindow",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/boostDamage",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/blastRadius",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/revolver/fireTiming",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/id",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/asset",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/damage",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/pellets",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/cooldown",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/range",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/spread",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/speed",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/lifetime",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/boostWindow",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/boostDamage",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/blastRadius",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    },
+    {
+      "cell": "weapons/shotgun/fireTiming",
+      "definitionVerified": true,
+      "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system."
+    }
+  ],
+  "runtimeVerification": "separate; not claimed by preflight"
+}

@@ -1,0 +1,51 @@
+{
+  "sheet": "weapons",
+  "columns": {
+    "id": "string",
+    "asset": "ref:assets",
+    "damage": "int",
+    "pellets": "int",
+    "cooldown": "float",
+    "range": "float",
+    "spread": "float",
+    "speed": "float",
+    "lifetime": "float",
+    "boostWindow": "float",
+    "boostDamage": "int",
+    "blastRadius": "float",
+    "fireTiming": "string"
+  },
+  "evidence": "Design: user chose revolver/shotgun, coin ricochets/projectile boosts. EnemyHealth.Hurt requires host/singleplayer. Unlimited ammunition follows ULTRAKILL weapon behavior; reload/clip is deliberately not a touched system.",
+  "rows": [
+    {
+      "id": "revolver",
+      "asset": "revolver",
+      "damage": 24,
+      "pellets": 1,
+      "cooldown": 0.38,
+      "range": 80.0,
+      "spread": 0.0,
+      "speed": 0.0,
+      "lifetime": 0.0,
+      "boostWindow": 0.0,
+      "boostDamage": 0,
+      "blastRadius": 0.0,
+      "fireTiming": "Previous accepted shot determines next allowed time, including when switching weapons; client and host share this rule."
+    },
+    {
+      "id": "shotgun",
+      "asset": "shotgun",
+      "damage": 8,
+      "pellets": 8,
+      "cooldown": 0.95,
+      "range": 40.0,
+      "spread": 4.0,
+      "speed": 42.0,
+      "lifetime": 1.2,
+      "boostWindow": 0.22,
+      "boostDamage": 60,
+      "blastRadius": 2.5,
+      "fireTiming": "Previous accepted shot determines next allowed time, including when switching weapons; client and host share this rule."
+    }
+  ]
+}
